@@ -1,0 +1,11 @@
+{
+  "name": "primetable",
+  "version": "1.0.0",
+  "description": "Coding Challenge to print a multiplication table of the first n prime numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Tomio Mizoroki",
+  "license": "ISC"
+}
