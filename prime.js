@@ -16,4 +16,21 @@ var primes = (function primeModule() {
     return result;
   }
 
+  // Returns an array of the first N primes
+  function findPrimes(n) {
+    var primes = [];
+    var counter = 0;
+    var current = 2;
+
+    while (counter < n) {
+      if (isPrime(current)) {
+        primes.push(current);
+        counter++;
+      }
+      current++;
+    }
+
+    return primes;
+  }
+
 })();
