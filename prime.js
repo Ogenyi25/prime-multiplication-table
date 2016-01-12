@@ -33,4 +33,9 @@ var primes = (function primeModule() {
     return primes;
   }
 
+  return {
+    isPrime: isPrime,
+    findPrimes: findPrimes
+  }
+  
 })();
