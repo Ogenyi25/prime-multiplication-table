@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-describe('Prime Table', function() {
+describe('Prime Module', function() {
   
   describe('isPrime function', function () {
     
@@ -53,5 +53,11 @@ describe('Prime Table', function() {
     });
 
   });
+
+});
+
+describe('Grid Module' function () {
+
+  it('should display tabular data');
 
 });
