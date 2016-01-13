@@ -4,7 +4,7 @@
   "description": "Coding Challenge to print a multiplication table of the first n prime numbers",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha test.js"
   },
   "author": "Tomio Mizoroki",
   "license": "ISC",
