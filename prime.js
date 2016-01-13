@@ -1,8 +1,10 @@
+'use strict'
+
 // Simple function to test if the input is a prime number
 exports.isPrime = function(num) {
 
   if (typeof num !== 'number' || num % 1 !== 0) {
-    throw new Error("You must input an integer")
+    throw new Error("isPrime input must be an integer")
   }
 
   var result = true;
@@ -27,7 +29,7 @@ exports.findPrimes = function(n) {
   var current = 2;
 
   if (typeof n !== 'number' || n <= 0 || n % 1 !== 0) {
-    throw new Error("You must input a positive integer")
+    throw new Error("findPrimes input must be a positive integer")
   }
 
   while (counter < n) {
