@@ -3,7 +3,7 @@
 var primes = require('./prime.js');
 var grid = require('./table.js')
 
-var n = Number(process.argv[2]) || 10;
+var n = Number(process.argv[2]);
 
 // Calculate all of the prime products
 function primeProducts(primes) {
