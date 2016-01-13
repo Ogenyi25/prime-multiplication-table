@@ -1,3 +1,5 @@
+'use strict'
+
 // Find the width we need for each column in the table
 function colWidths(rows) {
   return rows[0].map(function(_, i) {
@@ -18,7 +20,7 @@ function padContent(content, width) {
   return result;
 }
 
-// Convert the array of rows into a formatted string that will print out the cells in a grid layout
+// Convert the array of rows into a formatted string that will display the cells in a grid layout
 exports.drawTable = function(rows) {
   var widths = colWidths(rows);
 
