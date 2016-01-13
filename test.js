@@ -1,3 +1,5 @@
+'use strict'
+
 var assert = require('assert');
 var primes = require('./prime.js');
 var grid = require('./table.js')
@@ -41,6 +43,10 @@ describe('Prime Module', function () {
     it('should return N numbers if N is passed in', function () {
       assert.equal(primes.findPrimes(12).length, 12);
       assert.equal(primes.findPrimes(8).length, 8);
+    });
+
+    it('should return only prime numbers', function () {
+      assert.deepEqual(primes.findPrimes(), [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]);
     });
 
     it('should throw an error if a positive integer is not passed in', function () {
